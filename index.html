@@ -477,7 +477,7 @@
 
             img.onload = checkLoad;
             img.onerror = () => {
-                console.error(`Failed to load image: ${imgName}`);
+                console.error(`Failed to load image:imgName`);
                 // Still increment loadedCount so animation starts even if some images fail
                 checkLoad();
             };
@@ -615,5 +615,6 @@
 
 
 </html>
+
 
 
